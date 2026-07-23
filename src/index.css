@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #FAF8F5;
+    --bg-secondary: #F5F0EA;
+    --bg-dark: #1A3C2F;
+    --dark-hover: #234B3C;
+    --text-primary: #1A3C2F;
+    --text-secondary: #5C6B60;
+    --text-light: #FAF8F5;
+    --accent-gold: #C4A35A;
+    --border-subtle: #E8E2D9;
+    --border-green: #1A3C2F;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+.hero-headline {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  line-height: 1.05;
+  font-weight: 700;
+}
+
+.heading-h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.05;
+  font-weight: 700;
+}
+
+.heading-h2 {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.label-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+}
+
+/* Custom hide scrollbar for horizontal process and product tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

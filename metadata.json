@@ -1,0 +1,6 @@
+{
+  "name": "Creato4",
+  "description": "Multidisciplinary Product & Technology Lab featuring interactive 3D exploded product visualization, engineering project showcase, services, delivery process, and consultation booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
